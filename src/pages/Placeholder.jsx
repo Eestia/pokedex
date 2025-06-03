@@ -1,12 +1,12 @@
 import './Placeholder.css';
-import ball from '../assets/simple_pokeball.gif'
+// import ball from '../assets/simple_pokeball.gif'
 function Placeholder() {
 
   return (
     <div className="Layout">
       <div id='ecran'>
         <div id='ecran3'>
-            <img src={ball} alt="" />
+            <img src="/pokedex/simple_pokeball.gif" alt="" />
             <h3>please wait</h3>
         </div>
       </div>
